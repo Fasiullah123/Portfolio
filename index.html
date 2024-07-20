@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal HTML-5 Template</title>
+  <link rel="shortcut icon" href="favicon1.png" type="image/x-icon">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="index.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-expand-lg {
+  height: 6.5rem;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+.navbar-expand-lg a {
+  color: black;
+}
+
+.real-img {
+  width: 13rem;
+  margin-left: 2.2rem;
+}
+
+#navbarSupportedContent {
+  margin-left: 9.3rem;
+}
+
+.nav-item {
+  padding-right: 1.8rem;
+}
+
+.nav-btn {
+  background: #ec5b53;
+  border: none;
+  border-radius: 0.35rem;
+  padding: 1.05rem 1.2rem;
+  margin-right: 3rem;
+  font-size: 0.89rem;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.04rem;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ec5b53;
+}
+
+.hero-sec img {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.hero-text {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 50%;
+  padding-left: 4.5%;
+}
+
+.lines {
+  display: inline-block;
+  margin-top: 7.5rem;
+  color: #ec5b53;
+  font-size: 1.5rem;
+  font-weight: light;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.line1_1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #002d5b;
+  font-family: "Rufina";
+}
+
+.line4 {
+  padding-top: 1.5rem;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  font-weight: normal;
+  word-spacing: 0.3rem;
+  color: #032241c6;
+}
+
+.btn-outline-danger {
+  padding: 13px 40px;
+  font-weight: 600;
+  background-color: #ec5b53;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.btn-outline-danger:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.btn2 {
+  padding: 13px 55px;
+  margin-left: 15px;
+  color: black;
+  background-color: transparent;
+}
+
+.btn2:hover {
+  background-color: #ec5b53;
+  color: #fff;
+}
+
+.Query-portion {
+  width: 100%;
+  margin-top: 6.5rem;
+}
+
+.flexbox1 {
+  height: 600px;
+}
+
+.flexbox2 {
+  height: 600px;
+}
+
+.flexitem1 {
+  font-size: 30px;
+  color: #000a2d;
+  font-weight: 600;
+  font-family: serif;
+  padding: 150px 80px 45px 50px;
+}
+
+.flexitem2 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #10285d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0px 150px 40px 50px;
+}
+
+.flexitem3 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #10285d;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 150px 0px 50px;
+}
+
+.flexitem4 {
+  font-size: 40px;
+  color: #000a2d;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 148px 231px 0px 30px;
+}
+
+.flexitem5 {
+  font-size: 18px;
+  color: #0d2557d2;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 45px 0px 0px 30px;
+}
+
+.flexitem6 {
+  color: #000a2d;
+  font-size: 35px;
+  text-decoration: underline;
+  font-weight: 500;
+  margin: 8px 0px 0px 30px;
+}
+
+.fa-arrow-right {
+  margin-left: 150px;
+  font-size: 35px;
+  text-decoration: underline;
+}
+.service{
+  width: 100%;
+  height: 700px;
+  background-image: url(https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/shape1.png);
+  background-position: left top;
+  background-size: 71%;
+  background-repeat: no-repeat;
+}
+.col-12 h2{
+  font-size: 48px;
+  display: block;
+  font-weight: 600;
+  color: #000a2d;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+.col-12{
+  padding: 150px 20px 0px 150px;
+}
+.card-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-item{
+  height: 25rem;
+  width: 22rem;
+  border: 1px solid rgba(128, 128, 128, 0.211);
+  text-align: center;
+  border-radius: 9px;
+}
+.card-icon{
+  height: 9rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rl-img{
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: rgba(246, 220, 224, 0.513);
+  padding: 20px;
+  border-radius: 50%;
+}
+.card-head h2{
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  color: #1c165c;
+}
+.card-lines{
+  padding: 30px 35px;
+  color: #57667e;
+}
+.rl-img-1{
+  width: 5.9rem;
+  height: 5.9rem;
+  background-color: rgba(246, 220, 224, 0.513);
+  padding: 22px;
+  border-radius: 50%;
+
+}
+
+@media (max-width:430px) {
+  .lines {
+    font-size: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 0px;
+  }
+
+  .btn-outline-danger {
+    font-size: 12px;
+    padding: 2px 3px;
+    margin: 7px 5px 2px px;
+  }
+
+  .btn2 {
+    padding: 2px 5px;
+  }
+
+  .line1_1 {
+    font-size: 18px;
+  }
+
+  .line4 {
+    font-size: 10px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+  }
+  .line2{
+    margin-bottom: 0.5rem;
+  }
+
+  .col-6 {
+    display: block;
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .Query-portion {
+    margin-top: 30px;
+    text-align: center;
+    height: 400px;
+    margin: 15px auto;
+  }
+
+  .flexitem1 {
+    padding: 0px 30px;
+    margin: 0px;
+    font-size: 20px;
+  }
+
+  .flexitem2 {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+
+  .flexitem3 {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+
+  .flexitem4 {
+    font-size: 20px;
+    padding: 0px 30px;
+  }
+
+  .flexbox2 {
+    position: absolute;
+    top: 660px;
+  }
+
+  .flexitem4 {
+    padding: 0px 70px;
+    margin: 0px;
+  }
+
+  .flexitem5 {
+    font-size: 15px;
+    margin: 10px 0px;
+  }
+
+  .flexitem6 {
+    font-size: 18px;
+    margin-left: 93px;
+  }
+
+  .fa-arrow-right {
+    font-size: 12px;
+    margin-left: 80px;
+  }
+
+  .navbar-collapse {
+    background-color: rgb(153, 153, 153);
+    color: white;
+  }
+
+  .navbar-collapse a {
+    color: #fff;
+    padding-left: 30px;
+    width: 20px;
+  }
+
+  .nav-btn {
+    padding: 5px 3px;
+    font-size: 10px;
+    margin-left: 30px;
+  }
+   .col-12{
+    display: none;
+  }
+  .card-container{
+    margin-top: 100px;
+  }
+ 
+}
+  </style>
+</head>
+
+<body>
+  <!-- portfolio Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="real-img"
+          src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/logo.png" alt="Portfolio"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="nav-btn" type="submit">Get Free Consultent</button>
+
+      </div>
+    </div>
+  </nav>
+  <div class="hero-sec">
+    <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/hero/h1_hero.jpg" class="img-fluid"
+      alt="...">
+    <div class="hero-text">
+      <p class="lines">GET EVERY SINGLE SOLUTIONS</p>
+      <div class="line1_1">
+        <p class="line2">I'm Designer</p>
+        <p class="line3">Abdul Wahab Farooq.</p>
+        <p class="line4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempora, numquam, illum modi
+          quam vel corporis vero. lorem</p>
+      </div>
+      <div class="sec-btn">
+        <button type="button" class="btn btn-outline-danger  ">Learn more</button>
+        <button type="button" class="btn btn-outline-danger btn2">Hire Me</button>
+      </div>
+    </div>
+  </div>
+  <div class="Query-portion row">
+
+    <div class="flexbox1 col-6">
+      <div class="flexitem1">
+        Designing With Passion While Exploring The World.
+      </div>
+      <div class="flexitem2">
+        Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Quis ipsum
+        suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+      </div>
+      <div class="flexitem3">
+        Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua.
+      </div>
+    </div>
+
+    <div class="flexbox2 col-6">
+      <div class="flexitem4">Any Type Of Query
+        & Discussion.</div>
+      <div class="flexitem5">Late talk with me</div>
+      <div class="flexitem6">hire@colorlib.com <span class="ion1"><i class="fas fa-arrow-right"></i></span>
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <h2>What Services you will <br>Get from me!</h2>
+  </div>
+  <div class="card-container">
+    <div class="card-item">
+      <div class="card-icon">
+        <img class="rl-img" src="pen-tool (2).png" alt="pen icon">
+      </div>
+      <div class="card-text">
+        <div class="card-head">
+          <h2>UI/UX Design</h2>
+        </div>
+        <div class="card-lines">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque eum voluptate vel, perspiciatis
+          laudantium. Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+    </div>
+
+    <div class="card-item">
+      <div class="card-icon">
+        <img class="rl-img" src="megaphone (1).png" alt="pen icon">
+      </div>
+      <div class="card-text">
+        <div class="card-head">
+          <h2>Digital Marketing</h2>
+        </div>
+        <div class="card-lines">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque eum voluptate vel, perspiciatis
+          laudantium. Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+    </div>
+
+    <div class="card-item">
+      <div class="card-icon">
+        <img class="rl-img-1" src="portfolio (1).png" alt="pen icon">
+      </div>
+      <div class="card-text">
+        <div class="card-head">
+          <h2>Website Designing</h2>
+        </div>
+        <div class="card-lines">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque eum voluptate vel, perspiciatis
+          laudantium. Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
